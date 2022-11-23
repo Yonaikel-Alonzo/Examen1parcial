@@ -16,19 +16,13 @@
         Marinero n6 = new Marinero("Marinero","Pedro",098432123,2339876542,10,10,"M",900,1750);
         n6.imprimir();
         n6.Calcular_bono();
-        Marinero2 n7 = new Marinero2("Marinero","Maria",098432123,2339876542,19,10,"F",900,1750);
-        n7.imprimir();
-        n7.Calcular_bono();
-        Marinero3 n8 = new Marinero3("Marinero","Pedro",098432123,2339876542,21,10,"M",900,1750);
-        n8.imprimir();
-        n8.Calcular_bono();
+        
 
         List<Tripulante> listafigura=new List<Tripulante>();
             listafigura.Add(n4);
             listafigura.Add(n5);
             listafigura.Add(n6);
-            listafigura.Add(n7);
-            listafigura.Add(n8);
+       
             
 
             foreach(ICalcular_bono item in listafigura)
